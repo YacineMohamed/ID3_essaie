@@ -8,8 +8,8 @@ object essaieID3 {
 
   val conf = new SparkConf().setAppName("ID3").setMaster("local")
   val sc = new SparkContext(conf)
-  val inputPath = "/home/yacinou/Desktop/Compare/texte4.txt"
-  val outputPath = "/home/yacinou/Desktop/Compare/Resultat"
+  val inputPath = "fichier/texte4.txt"
+  val outputPath = "fichier/Resultat"
   var niveau = 0
   var resultat: ListBuffer[String] = ListBuffer[String]()
   var noeud = "root"
